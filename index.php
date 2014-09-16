@@ -113,5 +113,26 @@
 			echo rand(7, 22);
 		?>
 
+		<?php
+			$sample_nr = 45;
+			$sample_nr = $sample_nr + 5;
+			echo $sample_nr;
+		?>
+		
+	<h2>Numbri ja stringi liitmine</h2>	
+		<?php
+			echo 5 + " teksapüksid";
+		?>
+
+		<?php
+			echo "<br>";
+			echo 5 + "5";
+		?>
+
+		<?php
+			echo "<br>";
+			echo 5 + "7 teksapüksi";
+		?>
+	
 </body>
 </html>
