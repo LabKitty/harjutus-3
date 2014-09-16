@@ -64,6 +64,54 @@
 			echo "<br>";
 			$test = "Testime";
 			echo "$test kas interpolatsioon töötab";
+			echo "<br>";
+			$katse = "proov";
+			echo "Me peame {$katse}ima, kas ka ka nii saab.";
 		?>
+		
+	<h2>Täisarvud</h2>	
+		<?php 
+			$nr1 = 5;
+			$nr2 = 10;
+
+			echo $nr1 * $nr2 ;
+		?>
+		<?php 
+			echo "<br>";
+			echo abs(-300) 
+		?>
+		
+		<?php
+			echo "<br>";
+			// Viis ruudus:
+			echo pow(5, 2);
+
+			echo "<br>";
+			// Seitse kuubis:
+			echo pow(7, 3);
+
+			echo "<br>";
+			// Kolm astmel seitse:
+			echo pow(3, 7);
+		?>
+		
+		<?php
+			echo "<br>";
+			// Ruutjuur 25-st:
+			echo sqrt(25);
+		?>
+		
+		<?php
+			echo "<br>";
+			// Suvaline number
+			echo rand();
+
+			// Lihtsalt reavahetus, et vältida segadust piiranguteta ja piiranguga numbritel vahet tegemisel.
+			echo "<br>";
+
+			// Suvaline number vahemikus 7 - 22:
+			echo rand(7, 22);
+		?>
+
 </body>
 </html>
