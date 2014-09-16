@@ -50,14 +50,20 @@
 			echo "<li>" . $student5 . "</li>";
 		?>
 	</ul>
+	
 		<?php
 			$firstName = "Veronika";
 			$lastName = "Bondar";
 			$fullName = "$firstName $lastName";
 		?>
-		
 		<?php 
 			echo $fullName;
+		?>
+		
+		<?php 
+			echo "<br>";
+			$test = "Testime";
+			echo "$test kas interpolatsioon töötab";
 		?>
 </body>
 </html>
