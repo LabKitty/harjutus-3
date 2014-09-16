@@ -13,7 +13,7 @@
 		// Lisan veebilehitsejas parema loetavuse saamiseks reamurdmise elemendi:
 		echo "<br>";
 		$variable = 20;
-    echo $variable;
+		echo $variable;
 	?>
 </body>
 </html>
