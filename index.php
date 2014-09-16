@@ -41,7 +41,7 @@
 			$student5 = "Marko";
 		?>
 		
-		<ul>
+	<ul>
 		<?php
 			echo "<li>" . $student1 . "</li>";
 			echo "<li>" . $student2 . "</li>";
@@ -49,6 +49,15 @@
 			echo "<li>" . $student4 . "</li>";
 			echo "<li>" . $student5 . "</li>";
 		?>
-		</ul>
+	</ul>
+		<?php
+			$firstName = "Veronika";
+			$lastName = "Bondar";
+			$fullName = "$firstName $lastName";
+		?>
+		
+		<?php 
+			echo $fullName;
+		?>
 </body>
 </html>
